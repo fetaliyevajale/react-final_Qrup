@@ -16,3 +16,5 @@ Route::post('/user/login', function (Request $request) {
 
     return response()->json(['success' => false, 'message' => 'Email və ya şifrə yanlışdır.'], 401);
 });
+
+// Salam
